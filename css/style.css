@@ -8,42 +8,72 @@ body {
 }
 
 h1 {
-  color: #1874d6;
+  color: black;
   font-family: sans-serif;
   font-size: 16px;
+  text-align: left;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: orange;
+  float: left;
+  margin: 7px 130px;
   font-weight: bold;
+  padding-top: 5px;
 }
 
 h3 {
   font-family: sans-serif;
   font-size: 16px;
+  text-align: center;
+  border: 1px solid blue ;
+  border-radius: 4px;
+  background-color: blue;
+  width: 40%;
+  padding: 5px;
+  color: white;
 }
 
 h4 {
-  color: #FFFFFF;
+  color: black;
   font-family: sans-serif;
   font-size: 16px;
   font-weight: bold;
+  float: left;
+  padding-top: 4.6%;
+  padding-left: 11%;
 }
 
 h5 {
-  text-align:right;
+  text-align: center;
   font-family: sans-serif;
   font-size: 16px;
+}
+
+h6 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+  float: left;
+  padding-right: 1%;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+  color: grey;
 }
 
 .container {
   background-color: #fafafa;
-  height: 900px;
+  height: 1060px;
   margin: 0 auto;
   width: 420px;
 }
 
-.arrow {
-  float: right;
-  padding-right: 5%;
-  padding-top: 3.5%;
-}
 
 .arrow-left {
   float: left;
@@ -55,49 +85,43 @@ h5 {
 }
 
 nav {
-  background-color: #2088f7;
+  background-color: orange;
   margin: 0 auto;
   position: fixed;
   width: 420px;
 }
 
-.back {
-    float: left;
-    padding-right: 1%;
-    padding-top: 5%;
-    padding-bottom: 4%;
-}
 
-.routes {
-  float: left;
-  padding-top: 5%;
-  padding-left: 12%;
-}
-
-.list {
-  padding-top: 12%;
+ul {
+  padding-top: 16%;
   width: 100%;
 }
 
-.location {
+li {
   float: right;
   overflow: hidden;
   padding-top: 5%;
-  padding-bottom: 2%;
-  width: 95%;
+  padding-bottom: 1%;
+  width: 100%;
   border-bottom: 1px solid;
   border-bottom-color: #DDDDDD;
 }
 
 .time {
-  float: left;
+  float: right;
   text-align: right;
-  width: 30%;
-  padding-right: 1%;
+  width: 33%;
+  padding: 5px;
+  color: white;
+  border: 1px solid #01CD10 ;
+  border-radius: 4px;
+  margin-right: 2%;
+  background-color: #01CD10;
 }
 
-.content {
+.location {
   float: left;
+  padding-left: 2%;
   padding-bottom: 7%;
   width: 60%;
 }
