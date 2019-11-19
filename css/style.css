@@ -12,14 +12,15 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin: 0 28% -30px 28%;
-  padding-bottom: 9%;
+  padding-top: 5%;
 }
 
 h2 {
   color: white;
   float: left;
   margin-left: 10px;
-  padding: 0px 0px 0px 0px;
+  padding-top: 5%;
+
 }
 
 h3 {
@@ -34,37 +35,68 @@ h4 {
   padding-top: 4%;
   padding-bottom: 6%;
   font-weight: bold;
-  color: orange;
+  color: #FD8F47;
 }
 
-p {
+h5{
   text-align: center;
   padding-top: 4%;
   color: grey;
 }
 
+p {
+  color: grey;
+  text-align: center;
+}
+
 nav {
-  background-color: orange;
-  padding-top: 5%;
+  background-color: #FD8F47;
+  padding-top: 3%;
   position: sticky;
+  margin-top: -4px;
+  display: inline-block;
+  justify-content: space-around;
+  width: inherit;
+  height: 90px;
+}
+
+.profile {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .arrow-left {
   float: left;
   margin-left: 15px;
+  padding-top: 5%;
 }
 
 .map {
   width: inherit;
-  border-bottom: 20px solid orange;
+  border-bottom: 20px solid #FD8F47;
   clip: rect(0px,auto,150px, auto);
   position: sticky;
 }
 
 .tab {
   width: inherit;
-  position: sticky;
+  background-color: #F8F8F8;
+  height: 100px;
+  display: inline-flex;
+  justify-content: space-around;
 }
+
+.saved {
+  padding: 2%;
+  margin-left: -10%;
+}
+
+.search {
+  padding: 2%;
+  margin-right: -10%;
+}
+
 
 .row1 {
   display: inline-flex;
@@ -96,7 +128,7 @@ color: white;
 text-align: center;
 border-radius: 5px;
 background-color: #01CD10;
-width: 25%;
+width: 32%;
 padding: 2%;
 margin-right: 10px;
 }
@@ -106,7 +138,7 @@ margin-right: 10px;
   text-align: center;
   border-radius: 5px;
   background-color: black;
-  width: 25%;
+  width: 50%;
   padding: 2%;
   margin-right: 10px;
 }
@@ -116,7 +148,7 @@ margin-right: 10px;
   text-align: center;
   border-radius: 5px;
   background-color: red;
-  width: 25%;
+  width: 32%;
   padding: 2%;
   margin-right: 10px;
 }
@@ -125,4 +157,15 @@ margin-right: 10px;
   background-color: #FFF;
   width: 480px;
   margin: 0 auto;
+}
+
+.statusbar {
+  width: inherit;
+  margin: 0 auto;
+}
+
+.bottom {
+  width: inherit;
+  margin: 0 auto;
+  margin-bottom: -4px;
 }
